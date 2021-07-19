@@ -32,8 +32,13 @@
         outline: none;
       }
       .icon {
-        color: rgb(75, 75, 201);
+        color: white;
+        border: none;
         margin-right: 10px;
+        padding: 3px 6px;
+        font-weight: 600;
+        background-color: rgb(75, 75, 201);
+        border-radius: 99px;
       }
     }
   }
