@@ -1,0 +1,53 @@
+.detail {
+  position: absolute;
+  left: 0;
+  width: 98.5%;
+  height: 700px;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 10px;
+  z-index: 777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .close{
+      margin-top: 10px;
+      position: relative;
+      text-align: center;
+      font-weight: 800;
+      width: 5em;
+       border-radius: 4px;
+      padding: 5px;
+      font-family: 'Kaushan Script';
+      z-index: 66;
+      
+  }
+  img {
+      position: absolute;
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
+-webkit-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
+-moz-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
+    
+  }
+  p{
+    position: absolute;
+    width: 95%;
+    margin-top: 21em;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    
+    font-size: 28px;
+    font-weight: 700;
+    z-index: 66;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: rgb(32, 2, 2);
+    text-shadow: 8px 3px 9px rgba(0,0,0,0.6);
+}
+}
