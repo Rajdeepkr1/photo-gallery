@@ -45,14 +45,27 @@
   .picture {
     margin: 10px 80px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: .5em;
     border-radius: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
 
     
+  }
+  
+}
+@media (min-width: 576px){
+  .picture {
+    margin: 10px 80px;
+    display: grid;
+    grid-gap: .5em;
+    border-radius: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }

@@ -26,9 +26,9 @@
   }
   img {
       position: absolute;
-    width: 95%;
-    height: 95%;
-    object-fit: contain;
+    width: 99%;
+    height: 98%;
+    object-fit: cover;
     box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
 -webkit-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
 -moz-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
@@ -44,8 +44,7 @@
     font-size: 28px;
     font-weight: 700;
     z-index: 66;
-    background-color: whitesmoke;
-    border-radius: 5px;
+    background-color: white;
     padding: 0px 5px;
     color: rgb(32, 2, 2);
     text-shadow: 8px 3px 9px rgba(0,0,0,0.6);
