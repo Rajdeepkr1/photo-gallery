@@ -1,12 +1,13 @@
 .detail {
   position: absolute;
   left: 0;
+  right: 0;
   width: 98.5%;
-  height: 700px;
+  height: 750px;
   background-color: black;
   border: none;
   border-radius: 8px;
-  margin: 10px 10px;
+  margin: 10px 5px;
   z-index: 777;
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@
       position: absolute;
     width: 99%;
     height: 98%;
-    object-fit: cover;
+    object-fit: contain;
     box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
 -webkit-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
 -moz-box-shadow: 10px 10px 17px 21px rgba(0,0,0,0.74);
@@ -37,14 +38,14 @@
   p{
     position: absolute;
     width: 95%;
-    margin-top: 21em;
+    margin-top:22em;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
     z-index: 66;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.438);
     padding: 0px 5px;
     color: rgb(32, 2, 2);
     text-shadow: 8px 3px 9px rgba(0,0,0,0.6);

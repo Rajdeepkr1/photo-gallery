@@ -64,7 +64,7 @@ const Gallery = () => {
     e.preventDefault()
     setPage(1)
   }
-  
+   console.log(photos)
   return (
     <div className="gallery">
     <div className="searchBox">

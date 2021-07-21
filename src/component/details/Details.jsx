@@ -9,7 +9,7 @@ const Details = (props) => {
             <p>
                 {props.pic.alt_description}
                 <h6>{props.pic.created_at}</h6>
-                <h6>Views :{props.pic.views}</h6>
+                <h6>{props.pic.user.instagram_username}</h6>
             </p> 
                       
         </div>
